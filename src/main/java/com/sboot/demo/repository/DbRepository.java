@@ -6,7 +6,6 @@ import java.util.List;
 
 public interface DbRepository {
 
-
     List<Column> getColumnsBySchemaAndTableName(String schema, String tableName);
 
 }

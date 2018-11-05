@@ -19,8 +19,6 @@ public class DbRepositoryImpl implements DbRepository {
             "WHERE TABLE_SCHEMA = ? " +
             "AND TABLE_NAME = ?";
 
-    private static String SELECT_SCHEMA_TABLES = "";
-
 
     @Override
     public List<Column> getColumnsBySchemaAndTableName(String schema, String tableName) {
